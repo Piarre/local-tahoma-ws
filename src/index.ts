@@ -3,8 +3,8 @@ import { cors } from "hono/cors";
 import { logger } from "hono/logger";
 import { poweredBy } from "hono/powered-by";
 import { prettyJSON } from "hono/pretty-json";
-import debugRoute from "~/routes/debug";
-import discoveryRoute from "~/routes/discovery";
+
+import { debugRoute, discoveryRoute } from "@/routes";
 
 const app = new Hono();
 

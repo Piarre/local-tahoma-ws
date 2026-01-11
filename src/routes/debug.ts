@@ -1,5 +1,6 @@
 import { Hono } from "hono";
-import { uptime } from "~/lib/utils";
+
+import { uptime } from "@/lib/utils";
 
 const debugRoute = new Hono();
 
